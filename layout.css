@@ -48,6 +48,9 @@
 
 #experience-grid {
     grid-area: experience-grid;
+    border: 2px solid #505355;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #headline {
