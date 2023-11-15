@@ -72,3 +72,10 @@ a {
 .container a:active {
     transform: scale(1.1);
 }
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    justify-content: center;
+}
