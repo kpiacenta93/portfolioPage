@@ -1,0 +1,74 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    margin: 0;
+    height: 100vh; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: 1px solid;
+    padding: 10px;
+    background-color: rgb(10, 10, 10);
+    color: whitesmoke;
+}
+
+.header {
+    text-align: center; 
+    margin-bottom: 20px; 
+    height: 50px;
+    font-size: larger;
+    
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid;
+    background-color: rgb(236, 227, 227);
+    width: 1000px;
+    height: 500px;
+    border-radius: 10px;
+    background-image: url('https://res.cloudinary.com/simplotel/image/upload/w_5000,h_2812/x_1094,y_0,w_2812,h_2812,r_0,c_crop,q_80,fl_progressive/w_825,f_auto,c_fit/night-hotel-broadway/Night_time_view_of_Broadway');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container  a {
+    display: flex;
+    margin: 10px 0; 
+    border: 2px solid rgb(136, 209, 233);
+    width: 200px;
+    height:40px;
+    text-align: center;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(19, 34, 56);
+    color: rgb(223, 100, 235);
+    text-decoration: dotted;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.container a:hover{
+    background-color: deepskyblue;
+    color: whitesmoke;
+    transform: scale(1.25);
+    
+ 
+}
+
+.container a:active {
+    transform: scale(1.1);
+}
