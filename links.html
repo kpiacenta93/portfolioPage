@@ -14,15 +14,19 @@
     <div class = "container">
         <a href="https://github.com/kpiacenta93">GitHub</a>
         <a href="https://www.linkedin.com/in/kyle-piacenta/">LinkedIn</a>
-        <a href="#" id="sendMessage" onclick="changeHeaderToMessage(event)" ondblclick="headerDoubleClick()">Send Me A Message!</a>
+        <a href="#" id="sendMessage" onclick="changeHeaderToMessage(event)">Send Me A Message!</a>
+
         <a href="index.html">Back Home!</a>
-        <form id="messageForm" style="display:none;">
-            <!-- Your form elements here -->
-            <input type="text" placeholder="Your message">
-            <button type="submit">Send</button>
-        </form>
 
     </div>
+
+    <form id="messageForm" style="display: none;">
+        <input type="email" placeholder="Email" id="email">
+        <input type="text" placeholder="Subject" id="subject">
+        <textarea placeholder="Your message"></textarea>
+        <button type="submit">Send</button>
+    </form>
+    
     
 </body>
 </html>

@@ -32,7 +32,7 @@ body {
     border-radius: 10px;
     background-image: url('https://res.cloudinary.com/simplotel/image/upload/w_5000,h_2812/x_1094,y_0,w_2812,h_2812,r_0,c_crop,q_80,fl_progressive/w_825,f_auto,c_fit/night-hotel-broadway/Night_time_view_of_Broadway');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
 }
 
@@ -79,3 +79,62 @@ a {
     padding: 25px;
     justify-content: center;
 }
+
+#messageForm {
+    transform: scaleY(1);
+    display: none;
+    opacity: 0; 
+    padding: 50px; 
+    border-radius: 10px; 
+    background-color: #ffffff; 
+    transition: opacity 0.5s ease-in-out, max-height 0.5s ease-in-out;
+    max-height: 0;
+    overflow: hidden;
+    width: 925px; 
+    margin: 20px auto; 
+    background-image: url('https://res.cloudinary.com/simplotel/image/upload/w_5000,h_2812/x_1094,y_0,w_2812,h_2812,r_0,c_crop,q_80,fl_progressive/w_825,f_auto,c_fit/night-hotel-broadway/Night_time_view_of_Broadway');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+   
+}
+
+#messageForm.show {
+    display: block;
+    opacity: 1;
+    max-height: 1000px; 
+    transform: scaleY(1);
+}
+
+#messageForm input, #messageForm textarea {
+    width: 100%; 
+    padding: 10px; 
+    margin: 10px 0; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    padding-right: 10px;
+    opacity: calc(0.85);
+}
+
+#messageForm button {
+    
+    padding: 10px 15px;
+    background-color:deepskyblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease, color 0.3s ease;
+}
+
+#messageForm button:hover {
+    background-color:  rgb(19, 34, 56);
+    color: rgb(223, 100, 235); 
+    transform: scale(1.5);
+}
+
+
+
+
