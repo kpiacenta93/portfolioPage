@@ -11,10 +11,10 @@
 <body>
     <div class = "header" ><header id="header">My Personal Links!</header></div>
     
-    <div class = "container">
+    <div class = "container" id="container" style="display: inline-flexblock;">
         <a href="https://github.com/kpiacenta93">GitHub</a>
         <a href="https://www.linkedin.com/in/kyle-piacenta/">LinkedIn</a>
-        <a href="#" id="sendMessage" onclick="changeHeaderToMessage(event)">Send Me A Message!</a>
+        <a href="#" id="sendMessage">Send Me A Message!</a>
 
         <a href="index.html">Back Home!</a>
 
@@ -24,7 +24,12 @@
         <input type="email" placeholder="Email" id="email">
         <input type="text" placeholder="Subject" id="subject">
         <textarea placeholder="Your message"></textarea>
-        <button type="submit">Send</button>
+        
+        <div id="backToLinksContainer">
+            <button class="btn-left">Send</button>
+            <button type="submit" id="backToLinks"  class="btn-right">Back to Links!</button>
+        </div>
+       
     </form>
     
     

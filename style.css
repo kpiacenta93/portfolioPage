@@ -2,7 +2,7 @@
     font-family: Tahoma, Verdana, Segoe, sans-serif;
     box-sizing: border-box;
     color: antiquewhite;
-    background-color: black;
+    
     
 }
 
@@ -15,6 +15,10 @@ html {
 body {
     margin-left: 7%;
     margin-right: 7%;
+    background-image: url('https://img.freepik.com/free-photo/beautiful-shining-stars-night-sky_181624-622.jpg?w=1380&t=st=1700346553~exp=1700347153~hmac=227ca4446476c2406bb4a1a533904c5f16175bccf392108043d0e6472f12821a');
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 
